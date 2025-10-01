@@ -91,7 +91,3 @@ VisionPM is a minimalist and scalable To-Do task management application, featuri
 - Code is commented for clarity.
 - Architecture follows separation of concerns and scalability principles.
 - Frontend consumes backend REST API via fetch.
-
----
-
-[GitHub Repo](<repo-url>)
