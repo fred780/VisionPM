@@ -1,0 +1,6 @@
+@VisionPM.Api_HostAddress = http://localhost:5186
+
+GET {{VisionPM.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
