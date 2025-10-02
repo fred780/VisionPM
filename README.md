@@ -52,7 +52,8 @@ VisionPM is a minimalist and scalable To-Do task management application, featuri
 
 ## Features
 
-- Create and list tasks
+- Create and list tasks with pagination
+- Update and delete tasks
 - Clean architecture (API: Controllers, Application, Domain, Infrastructure)
 - EF Core with In-Memory or SQLite database
 - Minimalist React frontend
@@ -66,7 +67,7 @@ VisionPM is a minimalist and scalable To-Do task management application, featuri
   - CORS enabled for frontend communication
 - **Frontend:**
   - Ultra-minimalist React SPA
-  - Only two endpoints used: list and create tasks
+  - CRUD operations via fetch API
 
 ## Assumptions & Trade-offs
 
@@ -81,9 +82,9 @@ VisionPM is a minimalist and scalable To-Do task management application, featuri
 - Further modularize the codebase for better maintainability
 - Persistent storage with SQLite or SQL Server
 - Authentication and authorization (JWT)
-- Unit and integration tests
+- Increase coverage of Unit tests, and add integration tests
 - User and role management
-- Enhanced UI (filters, search, pagination)
+- Enhanced UI (filters, search)
 - Cloud deployment (Azure/AWS)
 
 ## Notes
