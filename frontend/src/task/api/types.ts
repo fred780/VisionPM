@@ -3,7 +3,13 @@ export interface TaskItem {
     title: string;
     status: number;
     priority: number;
-    dueDate?: string;
     createdAt: string;
     updatedAt: string;
+}
+
+export interface PaginatedTasks {
+  items: TaskItem[];
+  page: number;
+  pageSize: number;
+  totalCount: number;
 }

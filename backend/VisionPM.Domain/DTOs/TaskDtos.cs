@@ -5,16 +5,12 @@ namespace VisionPM.Domain.DTOs;
 
 public record TaskCreateDto(
     [Required, MaxLength(120)] string Title,
-    TaskPriority Priority,
-    DateTime? DueDate,
-    string? Tags
+    TaskPriority Priority
 );
 
 public record TaskUpdateDto(
     [Required, MaxLength(120)] string Title,
     TaskPriority Priority,
     VisionPM.Domain.Entities.TaskStatus Status,
-    DateTime? UpdatedAt,
-    DateTime? DueDate,
-    string? Tags
+    DateTime? UpdatedAt
 );

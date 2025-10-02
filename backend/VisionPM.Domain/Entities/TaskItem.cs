@@ -11,8 +11,6 @@ public class TaskItem
     public string? Title { get; set; }
     public TaskStatus Status { get; set; }
     public TaskPriority Priority { get; set; }
-    public DateTime? DueDate { get; set; }
-    public string? Tags { get; set; }
     public DateTime? UpdatedAt { get; set; }
     public DateTime CreatedAt { get; set; }
 }

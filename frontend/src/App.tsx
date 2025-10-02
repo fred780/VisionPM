@@ -1,5 +1,5 @@
-import MainPage from './pages/MainPage';
+import TaskPage from './task/TaskPage';
 
 export default function App(){
-  return <MainPage/>;
+  return <TaskPage/>;
 }
